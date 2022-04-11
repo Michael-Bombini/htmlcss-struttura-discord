@@ -98,7 +98,7 @@ main {
 
 /* ------------------------------------------------------------------------ */
 
-/* Stile della prima section */
+/* Stile della prima seconda  terza section e quarta section (big section  */
 
 .section {
     min-height: 600px;
@@ -107,13 +107,13 @@ main {
     padding: 2rem 0;
 }
 
-.section-first-content {
+.section .container .first-content {
     background: var(--light-blue);
     flex-basis:  60%;
     min-height: 600px;
 }
 
-.section-second-content {
+.section .container .second-content {
     background: var(--light-white-pink);
     flex-basis: 40%;
     min-height: 600px;
@@ -122,3 +122,46 @@ main {
 .flex {
     display: flex;
 }
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.gray {
+    background: var(--light-gray);
+}
+
+.section .container.big {
+    min-height: 800px;
+    background: var(--green);
+}
+/* ------------------------------------------------------------------------ */
+
+/* Footer  */
+
+
+footer {
+    background: var(--black);
+    min-height: 600px;
+    padding-top: 0.5rem ;
+    
+}
+
+
+.column {
+    flex-direction: column;
+}
+
+
+.big-column {
+    background: var(--light-pink);
+    flex-basis: 40%;
+   
+}
+
+.small-column {
+    background : var(--aqua-blue) ;
+    flex-basis: 15%;
+}
+
+/* ------------------------------------------------------------------------ */
