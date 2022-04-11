@@ -1,6 +1,72 @@
+/* Stile di reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 20px;
     
 }
+
+
+/* VARIABILI COLORI */
+:root {
+    --light-sky-blue : #ADD8E6;
+    --orange : #DAA520;
+    --dark-blue : #00008B;
+    --pink : #EE82EE;
+    --white : #FFFFFF;
+    --light-blue : #1E90FF;
+    --light-pink : #FFC0CB;
+    --light-gray : #D3D3D3;
+    --green : #228B22;
+    --black : #23272A;
+    --light-pink : #F08080;
+    --aqua-blue : #20B2AA;
+
+
+}
+
+/* Stile dell'header (container , navbar) logo links login  */
+
+ header {
+    background: var(--light-sky-blue);
+    padding: 1rem 2rem;
+}
+
+.container {
+    width: 960px;
+    border: 1px dashed #000;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    background: var(--orange);
+    justify-content: space-between;
+    padding: 0 1rem;
+    align-items: center;
+}
+
+nav .logo , nav .login {
+    flex-grow: 1;
+
+}
+
+.login {
+    text-align: right;
+}
+
+nav .links {
+    display: flex;
+    border: 1px dashed #000;
+    flex-grow: 1;
+    padding: 0.5rem 0;
+    justify-content: center;
+}
+
+nav .links > li {
+    padding: 0 1rem;
+    list-style: none;
+}
+
+/* ------------------------------------------------------------------------ */
