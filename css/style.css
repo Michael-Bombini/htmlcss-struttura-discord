@@ -41,7 +41,7 @@
 
 .container {
     width: 960px;
-    border: 1px dashed #000;
+    border: 2px dashed #000;
     margin: 0 auto;
 }
 
@@ -64,7 +64,7 @@ nav .logo , nav .login {
 
 nav .links {
     display: flex;
-    border: 1px dashed #000;
+    border: 2px dashed #000;
     flex-grow: 1;
     padding: 0.5rem 0;
     justify-content: center;
@@ -93,6 +93,28 @@ main {
     min-height: 400px;
     margin: 0 auto;
     width: 45%;
+    border: 2px dashed #000;
 }
 
 /* ------------------------------------------------------------------------ */
+
+/* Stile della prima section */
+
+.section {
+    min-height: 600px;
+    background: var(--white);
+    display: flex;
+    padding: 2rem 0;
+}
+
+.section-first-content {
+    background: var(--light-blue);
+    flex-basis: 60%;
+    min-height: 600px;
+}
+
+.section-first-content {
+    background: var(--light-pink);
+    flex-basis: 40%;
+    min-height: 600px;
+}
