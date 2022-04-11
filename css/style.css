@@ -16,7 +16,7 @@
     --pink : #EE82EE;
     --white : #FFFFFF;
     --light-blue : #1E90FF;
-    --light-pink : #FFC0CB;
+    --light-white-pink : #FFC0CB;
     --light-gray : #D3D3D3;
     --green : #228B22;
     --black : #23272A;
@@ -109,12 +109,16 @@ main {
 
 .section-first-content {
     background: var(--light-blue);
-    flex-basis: 60%;
+    flex-basis:  60%;
     min-height: 600px;
 }
 
-.section-first-content {
-    background: var(--light-pink);
+.section-second-content {
+    background: var(--light-white-pink);
     flex-basis: 40%;
     min-height: 600px;
+}
+
+.flex {
+    display: flex;
 }
