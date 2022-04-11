@@ -40,6 +40,8 @@
     padding: 1rem 2rem;
 }
 
+
+
 .container {
     width: 960px;
     border: 2px dashed #000;
@@ -52,10 +54,13 @@ nav {
     justify-content: space-between;
     padding: 0 1rem;
     align-items: center;
+   
 }
 
 nav .logo , nav .login {
     flex-grow: 1;
+    
+  
 
 }
 
@@ -82,7 +87,7 @@ nav .links > li {
 /* Stile del main content */
 
 
-main {
+.main {
     background: var(--dark-blue);
     min-height: 500px;
     padding: 2rem 0;
@@ -93,8 +98,9 @@ main {
     background: var(--pink);
     min-height: 400px;
     margin: 0 auto;
-    width: 45%;
+   
     border: 2px dashed #000;
+    max-width: 800px;
 }
 
 /* ------------------------------------------------------------------------ */
@@ -186,7 +192,8 @@ footer .info {
 
 footer .logo , footer .bottone {
     background: var(--light-white-pink);
-
+    border: 2px dashed #000;
+    padding: 0.2rem;
 }
 
 
