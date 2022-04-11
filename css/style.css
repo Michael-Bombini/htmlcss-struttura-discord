@@ -26,6 +26,12 @@
 
 }
 
+
+
+
+/* ------------------------------------------------------------------------ */
+
+
 /* Stile dell'header (container , navbar) logo links login  */
 
  header {
@@ -65,8 +71,28 @@ nav .links {
 }
 
 nav .links > li {
-    padding: 0 1rem;
+    padding: 0 0.5rem;
     list-style: none;
+}
+
+/* ------------------------------------------------------------------------ */
+
+
+/* Stile del main content */
+
+
+main {
+    background: var(--dark-blue);
+    min-height: 500px;
+    padding: 2rem 0;
+}
+
+
+.main-content {
+    background: var(--pink);
+    min-height: 400px;
+    margin: 0 auto;
+    width: 45%;
 }
 
 /* ------------------------------------------------------------------------ */
