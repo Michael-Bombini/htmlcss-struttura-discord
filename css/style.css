@@ -22,6 +22,7 @@
     --black : #23272A;
     --light-pink : #F08080;
     --aqua-blue : #20B2AA;
+    --light-aqua-blue : #7fffd4;
 
 
 }
@@ -145,6 +146,7 @@ footer {
     min-height: 600px;
     padding-top: 0.5rem ;
     
+    
 }
 
 
@@ -153,13 +155,39 @@ footer {
 
 .big-column {
     background: var(--light-pink);
-    flex-basis: 40%;
+    flex-basis: 50%;
+    min-height: 500px;
+    border: 2px dashed #000;
    
 }
 
 .small-column {
     background : var(--aqua-blue) ;
-    flex-basis: 15%;
+    flex-basis: calc(100% / 4);
+    border: 2px dashed #fff;
 }
+
+
+hr {
+    margin-top: 2rem;
+}
+
+
+footer .info {
+    padding-top: 1rem;
+    padding: 1rem 0;
+    background: var(--light-aqua-blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+footer .logo , footer .bottone {
+    background: var(--light-white-pink);
+
+}
+
+
 
 /* ------------------------------------------------------------------------ */
